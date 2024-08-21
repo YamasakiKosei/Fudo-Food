@@ -1,0 +1,11 @@
+{
+    "name": "fudofood",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "fudofood_service",
+    "workspaceFolder": "/fudofood",
+    "customizations": {
+        "vscode": {
+            "extensions": ["ms-python.python"]
+        }
+    }
+}

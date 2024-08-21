@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+    fudofood_service:
+        container_name: fudofood
+        image: fudofood_image:1.0
+        build:
+            context: ..
+            dockerfile: .devcontainer/Dockerfile
+        volumes:
+            - ..:/fudofood
+        command: sleep infinity
