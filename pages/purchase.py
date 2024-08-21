@@ -29,7 +29,7 @@ try:
     
     # クーポン
     st.text_input("**クーポンコード**")
-    col1, col2, col3, col4 = st.columns([6,1.5,1,1])
+    col1, col2, col3, col4 = st.columns([6,1.5,1.5,1])
     with col2:
         st.write('')
         st.write('')
